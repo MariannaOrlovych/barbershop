@@ -1,0 +1,74 @@
+:root{
+    --word-color: #FF6C00;
+    --one-of-the-main-color: #FFFFFF;
+    --second-main-color: #9DA4BD;
+    --different-color: rgba(157, 164, 189, 0.6);
+    --main-text-color: #9DA4BD;
+    --big-number-color: #303030;
+    --text-color: #555555;
+    --backgraund-color:#F7F7F7;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul{list-style: none;}
+
+a[href]{text-decoration: none;}
+
+h1{font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 1.18;
+    letter-spacing: 0.05em;
+    color: var(--one-of-the-main-color);
+}
+
+
+/* navi */
+
+.link{
+    color: var(--one-of-the-main-color);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.1em;
+    list-style: none;
+}
+
+
+.link:hover,
+.link:focus{color:var(--word-color);}
+.link::content{color: var(--word-color);}
+
+.phone{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.1em;
+    color: var(--one-of-the-main-color);
+}
+
+/* button */
+
+.main-botton{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.09em;
+    color: var(--one-of-the-main-color);
+}
+
+/* main */
+
+.social{color: var(--big-number-color);
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.2em;
+}
+.social .social-networks:hover,
+.social .social-networks:focus
+{color: var(--word-color);}
