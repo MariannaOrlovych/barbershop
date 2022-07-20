@@ -63,6 +63,8 @@ h1{font-family: 'Raleway';
 
 /* main */
 
+.section-hiro{background-color:var(--one-of-the-main-color);}
+
 .social-networks{color: var(--big-number-color);
     font-weight: 600;
     font-size: 11px;
@@ -74,9 +76,192 @@ h1{font-family: 'Raleway';
 .social-networks:focus{color: var(--word-color);
 }
 
-.section-about{color: var(--different-color);
+.section-hiro-location{color: var(--different-color);
     font-weight: 600;
     font-size: 11px;
     line-height: 1.36;
     letter-spacing: 0.1em;
+}
+
+
+.hiro-info{color: var(--text-color);
+    font-size: 14px;
+    line-height: 1.86;
+    letter-spacing: 0.02em;
+}
+    
+ 
+.about-text{color: var(--text-color);
+ font-size: 18px;
+ line-height: 1.67; 
+ letter-spacing: 0.02em;
+}
+
+.section-about{color: var(--big-number-color);
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;}
+
+.best-barbershop{color: var(--big-number-color);
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.17;
+    letter-spacing: 0.05em;
+}
+
+.section-about-button{color: var(--big-number-color);
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.09em;
+}
+
+/* prises */
+
+.section-prise{color: var(--different-color);
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.1em;
+}
+
+.section-servises-prices{color:var(--one-of-the-main-color);
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.17;
+    letter-spacing: 0.05em;
+}
+
+.list{ color: var(--main-text-color);
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+}
+
+.numbers{color: var(--big-number-color);
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.36;
+    letter-spacing: 0.05em;
+}
+
+sap{color: var(--word-color);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.38;
+    text-align: center;
+}
+
+.information{color: var(--big-number-color);
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.37;
+}
+
+.section-why-us{color: var(--big-number-color);
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.37;
+    letter-spacing: 0.1em;
+}
+
+.people-come-to-us{color: var(--big-number-color);
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.17;
+    letter-spacing: 0.05em;
+}
+
+.good-things{color:var(--text-color);
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+}
+
+/* barbers */
+
+.section-barbers{background-color: var(--backgraund-color);}
+.about-our-barbers{color: var(--big-number-color);
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.37;
+    letter-spacing: 0.1em;
+}
+
+.our-barbers{color: var(--big-number-color);
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.17;
+    letter-spacing: 0.05em;
+}
+
+.barber{color: var(--big-number-color);
+    font-size: 18px;
+    line-height: 1.39;
+    letter-spacing: 0.02em;
+}
+
+.position{color: var(--word-color);
+    font-size: 14px;
+    line-height: 1.36;  
+    letter-spacing: 0.02em;
+}
+
+/* portfolio */
+
+.portfolio{color: var(--big-number-color);
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.37;
+    letter-spacing: 0.1em;
+}
+
+.online-booking{color: var(--one-of-the-main-color);
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.17;
+    letter-spacing: 0.05em;
+}
+
+/* contacts */
+
+.contacts{color: var(--one-of-the-main-color);
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.17;
+    letter-spacing: 0.05em;
+}
+
+.adress-footer{font-style: unset;
+}
+
+.location{font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+    color: var(--second-main-color);
+}
+
+.phone-footer{
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);
+
+}
+
+.mail-footer{
+    color: var(--second-main-color);
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+    text-decoration-line: underline;
 }
