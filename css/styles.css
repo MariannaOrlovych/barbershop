@@ -63,12 +63,20 @@ h1{font-family: 'Raleway';
 
 /* main */
 
-.social{color: var(--big-number-color);
+.social-networks{color: var(--big-number-color);
     font-weight: 600;
     font-size: 11px;
     line-height: 1.36;
     letter-spacing: 0.2em;
 }
-.social .social-networks:hover,
-.social .social-networks:focus
-{color: var(--word-color);}
+
+.social-networks:hover,
+.social-networks:focus{color: var(--word-color);
+}
+
+.section-about{color: var(--different-color);
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.1em;
+}
