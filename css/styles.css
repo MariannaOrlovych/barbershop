@@ -1,5 +1,5 @@
 :root{
-    --word-color: #FF6C00;
+    --active-button-color: #FF6C00;
     --one-of-the-main-color: #FFFFFF;
     --second-main-color: #9DA4BD;
     --different-color: rgba(157, 164, 189, 0.6);
@@ -7,10 +7,12 @@
     --big-number-color: #303030;
     --text-color: #555555;
     --backgraund-color:#F7F7F7;
+    --second-text-color:#FFFFFF;
 }
 
 body{
     font-family: 'Open Sans', sans-serif;
+    background-color: var(--one-of-the-main-color);
 }
 
 .visually-hidden {
@@ -24,4 +26,290 @@ body{
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
     margin: -1px;
-  }
+}
+
+.list{
+   list-style: none;
+}
+.link{
+    text-decoration: none;
+}
+
+.btn {
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.34;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+}
+.header-nav-information{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.34;
+    letter-spacing: 0.1em;
+}
+
+.pre-title{
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.37;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.after-title{
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+}
+
+.title{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.17;
+    letter-spacing: 0.05em;
+}
+
+
+/* -----------------HEADER---------------- */
+
+.header-link{
+    color: var(--second-text-color);
+}
+
+.header-link:hover,
+.header-link:focus, 
+.current {
+    color: var(--active-button-color);
+}
+
+.header-tel{
+    color: var(--second-text-color);
+}
+.header-btn {
+    color: var(--second-text-color);
+}
+
+.hero-link {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.37;
+    letter-spacing: 0.2em;
+    color: var(--big-number-color);
+}
+
+.hero-pre-title {
+    color: rgba(157, 164, 189, 0.6);
+}
+
+.hero-title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 1.18;
+    letter-spacing: 0.05em;
+    color: var(--one-of-the-main-color);
+}
+.hero-after-title {
+color: var(--main-text-color);
+}
+
+/* -----------------ABOUT---------------- */
+
+
+.about-title {
+    color:var(--big-number-color);
+}
+.about-after-title {
+    color: var(--text-color);
+}
+
+.about-text {
+    font-size: 14px;
+    line-height: 1.86;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
+.about-btn{
+color: var(--big-number-color);}
+
+
+/* -----------------PRICES---------------- */
+
+.prices-pre-title {
+    color: rgba(157, 164, 189, 0.6);
+}
+.prices-title {
+    color: var(--second-text-color);
+}
+
+.prices-list-text {
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);
+}
+
+.prices-btn{
+    color: var(--second-text-color);
+}
+
+
+/* -----------------BENEFITS---------------- */
+
+.benefits-item{
+    background-color: var(--backgraund-color);
+}
+
+.benefits-item span{
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
+
+sap {
+    color: var(--active-button-color);
+}
+
+.benefits-item-text{ font-weight: 600;
+    font-size: 11px;
+    line-height: 1.37;
+    text-align: center;
+    color: var(--big-number-color);
+}
+
+.benefits-pre-title{
+    color: var(--big-number-color);
+}
+.benefits-title {
+    color: var(--big-number-color);
+}
+
+.benefits-after{
+    color: var(--text-color);
+}
+
+/* -----------------BARBERS---------------- */
+
+.barbers {
+    background-color: var(--backgraund-color);
+}
+.barbers-pre-title {
+    color: var(--big-number-color);
+}
+
+.barbers-title {
+    color: var(--big-number-color);
+}
+
+.barbers-item-title{
+    font-size: 18px;
+    line-height: 1.39;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--big-number-color);
+}
+
+
+.barbers-item-text{
+    font-size: 14px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--active-button-color);
+}
+
+/* -----------------PORTFOLIO---------------- */
+
+.portfolio-pre-title{
+color: var(--big-number-color);
+}
+
+/* -----------------BOOKING---------------- */
+
+
+.booking-title{
+    color: var(--second-text-color);
+}
+
+/* -----------------CONTACTS---------------- */
+
+
+.contacts-title {
+    color: var(--second-text-color);
+}
+
+.address {
+    font-style: unset;
+}
+.address-location {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);
+}
+
+.address-item-tel {
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);
+}
+
+.address-item-mail {
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    text-decoration-line: underline;
+    color: var(--main-text-color);
+}
+.address-location:hover,
+.address-location:focus,
+.address-item-tel:hover,
+.address-item-tel:focus,
+.address-item-mail:hover,
+.address-item-mail:focus, 
+.footer-item-text:hover,
+.footer-item-text:focus{color: var(--active-button-color);}
+
+.working-hours {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.37;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--second-text-color);
+}
+.working-hours-text {
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color-interpolation-filters: var(--main-text-color);
+}
+
+/* -----------------FOOTER---------------- */
+
+.footer{
+    background-color: var(--backgraund-color);
+}
+
+.after-footer-text{font-weight: 600;
+    font-size: 11px;
+    line-height: 1.37;
+    letter-spacing: 0.2em;
+    color: var(--main-text-color);
+}
+
+.footer-item-text{
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.37;
+    letter-spacing: 0.2em;
+    color: var(--big-number-color);
+}
