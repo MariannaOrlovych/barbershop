@@ -15,6 +15,12 @@ body{
     background-color: var(--one-of-the-main-color);
 }
 
+
+p, h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+img{display: block;}
+
 .visually-hidden {
     position: absolute;
     white-space: nowrap;
@@ -73,8 +79,31 @@ body{
     letter-spacing: 0.05em;
 }
 
+.container{
+    max-width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid red;
+}
+
+.section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
 
 /* -----------------HEADER---------------- */
+
+.header{
+    background-color: gray;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.header-container, .header-list{
+    display: flex;
+}
 
 .header-link{
     color: var(--second-text-color);
@@ -93,6 +122,10 @@ body{
     color: var(--second-text-color);
 }
 
+/* -----------------HERO---------------- */
+
+ 
+
 .hero-link {
     font-weight: 600;
     font-size: 11px;
@@ -101,8 +134,15 @@ body{
     color: var(--big-number-color);
 }
 
+.hero-content{
+    padding: 272px 100px 206px 100px;
+    margin-top: 0;
+    margin-bottom: 0;
+}  
+
 .hero-pre-title {
     color: rgba(157, 164, 189, 0.6);
+    margin-bottom: 20px;
 }
 
 .hero-title {
@@ -112,19 +152,35 @@ body{
     line-height: 1.18;
     letter-spacing: 0.05em;
     color: var(--one-of-the-main-color);
+    margin-bottom: 20px;
 }
 .hero-after-title {
 color: var(--main-text-color);
+max-width: 360px;
 }
 
 /* -----------------ABOUT---------------- */
 
+/* .about-container{
+    padding-top:130px;
+    padding-bottom: 130px;
+} */
 
 .about-title {
     color:var(--big-number-color);
 }
+
+.about-pre-title{
+    margin-bottom: 20px;
+}
+
+.about-title{
+    margin-bottom: 20px;
+}
+
 .about-after-title {
     color: var(--text-color);
+    margin-bottom: 20px;
 }
 
 .about-text {
@@ -132,18 +188,30 @@ color: var(--main-text-color);
     line-height: 1.86;
     letter-spacing: 0.02em;
     color: var(--text-color);
+    margin-bottom: 40px;
 }
 .about-btn{
 color: var(--big-number-color);}
 
 
 /* -----------------PRICES---------------- */
-
+/* .prices-container{
+    padding-top: 130px;
+    padding-bottom: 130px; */
+}
 .prices-pre-title {
     color: rgba(157, 164, 189, 0.6);
+    margin-bottom: 20px;
 }
 .prices-title {
     color: var(--second-text-color);
+    margin-bottom: 44px;
+}
+
+.prices-list{padding: 30px 40px 30px 40px;}
+
+.prices-item{
+    margin-bottom: 20px;
 }
 
 .prices-list-text {
@@ -155,6 +223,9 @@ color: var(--big-number-color);}
 
 .prices-btn{
     color: var(--second-text-color);
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
 }
 
 
